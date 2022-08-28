@@ -22,7 +22,7 @@ body {
 	width: 250px;
 }
 
-.input-box input {
+.input-box .input {
 	width: 100%;
 	padding: 10px;
 	border: 1px solid #ffffff50;
@@ -38,7 +38,7 @@ body {
 
 }
 
-.input-box span {
+.input-box .label-span {
 	color: gray;
 	font-size: 0.75rem;
 	text-transform: uppercase;
