@@ -1,0 +1,51 @@
+li, a, button {
+    
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #F9F5EB;
+    text-decoration: none;
+
+}
+
+#nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+
+    background-color: #554994;
+}
+
+.logo {
+    cursor: pointer;
+
+}
+
+.nav_links {
+    list-style: none;
+
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #B1E1FF;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #7FB77E;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);   
+}
